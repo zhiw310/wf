@@ -1,0 +1,13 @@
+- model=rnndet
+- dataset=gen1
+- dataset.path=/home/user1/map/datasets/gen1
+- wandb.project_name=SAST
+- wandb.group_name=gen1
+- hardware.num_workers.train=2
+- batch_size.train=4
+- hardware.num_workers.eval=2
+- batch_size.eval=4
+- hardware.gpus=[0,1,2,3]
+- +experiment/gen1=base.yaml
+- training.learning_rate=0.000282842712474619
+- validation.val_check_interval=10000
