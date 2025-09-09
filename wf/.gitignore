@@ -5,3 +5,4 @@ wandb/
 outputs/
 output_waft_optimized/
 output/
+.hydra/
